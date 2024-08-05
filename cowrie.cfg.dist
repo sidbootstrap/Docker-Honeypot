@@ -1,0 +1,8 @@
+[ssh]
+enabled = true
+listen_endpoints = tcp:2222:interface=0.0.0.0
+
+[output_textlog]
+enabled = true
+logfile = /opt/cowrie/var/log/cowrie/cowrie.log
+
